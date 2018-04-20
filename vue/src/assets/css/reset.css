@@ -1,0 +1,28 @@
+/*
+* @Author: anchen
+* @Date:   2018-03-01 19:35:54
+* @Last Modified by:   anchen
+* @Last Modified time: 2018-03-07 20:42:03
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f1f1f1;
+    /* font-size: 366.21094%; */
+    line-height: 1.8;
+    font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+    font-size: 14px;
+}
+ul,ol,dl{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.after::after{
+    display: block;
+    content: "";
+    clear: both;
+}
